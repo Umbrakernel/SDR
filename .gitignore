@@ -1,7 +1,18 @@
+# CMake
 build/
 cmake-build-*/
 CMakeCache.txt
 CMakeFiles/
+
+# Python
 __pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
 .vscode/
 .idea/
+
+# SDR recordings
+*.pcm

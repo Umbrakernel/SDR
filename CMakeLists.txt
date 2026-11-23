@@ -6,6 +6,6 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 
 find_package(SoapySDR REQUIRED)
 
-add_executable(sdr main.c)
+add_executable(sdr src/main.c)
 target_include_directories(sdr PRIVATE ${SoapySDR_INCLUDE_DIRS})
 target_link_libraries(sdr PRIVATE ${SoapySDR_LIBRARIES} m)
